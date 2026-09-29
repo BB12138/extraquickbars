@@ -1,0 +1,44 @@
+# This file will automatically update with entries for new content after a build and reload.
+# Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
+
+Configs: {
+	QuickBarConfig: {
+		DisplayName: 额外快捷栏设置
+		Headers.General: 常规
+
+		FollowLoadoutSwitch: {
+			Label: 跟随装备栏切换
+			Tooltip: 开启：切换装备栏（原版 F1/F2/F3）时，快捷栏一起切到对应编号。关闭：只切换装备栏，快捷栏不动（可用界面按钮或自行绑定的快捷键单独切换）。
+		}
+
+		ButtonSwitchesLoadout: {
+			Label: 手动按钮同时切换装备栏
+			Tooltip: 开启：点界面按钮切换快捷栏时，装备栏也切到对应编号。关闭：点按钮只切换快捷栏。
+		}
+
+		KeybindSwitchesLoadout: {
+			Label: 快捷键同时切换装备栏
+			Tooltip: 开启：用本 mod 快捷键切换快捷栏时，装备栏也切到对应编号。关闭：快捷键只切换快捷栏。
+		}
+
+		DropOnDeath: {
+			Label: 死亡时掉落当前快捷栏
+			Tooltip:
+				'''
+				开启后，死亡时只掉落当前激活快捷栏中的物品；其余两栏始终保留，且不会出现双重掉落。
+				关闭后不掉落任何物品，三栏全部保留。
+				'''
+		}
+	}
+}
+
+Keybinds: {
+	SwitchToBar1.DisplayName: 切换到快捷栏 1
+	SwitchToBar2.DisplayName: 切换到快捷栏 2
+	SwitchToBar3.DisplayName: 切换到快捷栏 3
+}
+
+UI: {
+	LeftArrow: <
+	RightArrow: >
+}

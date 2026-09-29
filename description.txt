@@ -1,0 +1,6 @@
+ExtraQuickBars - three switchable quick bars (10 slots each) that share the vanilla hotbar's screen position.
+Use the two small buttons next to the hotbar, or F1/F2/F3 (rebindable), to cycle between them.
+Switching equipment loadouts can follow automatically, and the death behavior of the active bar is configurable.
+
+新增三套快捷栏，与原版快捷栏共用屏幕位置；点击快捷栏右侧的左右按钮或用 F1/F2/F3（可改绑）即可切换。
+可跟随装备栏切换，死亡时是否掉落当前快捷栏也可在设置中配置。

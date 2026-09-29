@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\obj\Debug\net8.0\extraquickbars.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\obj\Debug\net8.0\extraquickbars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\obj\Debug\net8.0\extraquickbars.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\obj\Debug\net8.0\extraquickbars.AssemblyInfo.cs
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\obj\Debug\net8.0\extraquickbars.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\bin\Debug\net8.0\extraquickbars.deps.json
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\bin\Debug\net8.0\extraquickbars.dll
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\bin\Debug\net8.0\extraquickbars.pdb
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\obj\Debug\net8.0\extraquickbars.dll
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\obj\Debug\net8.0\refint\extraquickbars.dll
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\obj\Debug\net8.0\extraquickbars.pdb
+C:\Users\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\extraquickbars\obj\Debug\net8.0\ref\extraquickbars.dll

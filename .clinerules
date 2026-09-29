@@ -1,0 +1,26 @@
+# tModLoader Mod 开发规范
+
+## 编码风格
+- 私有字段使用 camelCase，**不要加下划线前缀**。
+- 属性 backing fields 使用 `_camelCase`。
+- 公共成员、类名、方法名使用 PascalCase。
+- 常量使用 PascalCase。
+- 使用 K&R 大括号风格（左括号不换行）。
+- 单行 if/else 可省略大括号，多行必须加大括号。
+- 使用 file-scoped namespace（`namespace Foo;`）。
+
+## 代码质量
+- 使用 `Terraria.ID` 命名空间中的具名常量，禁止魔法数字。
+- 面向玩家的文本必须使用本地化键，不要硬编码。
+- 禁止使用 `Console.WriteLine`，使用 `Logger` 或 `Mod.Logger`。
+- 使用 `public override` 重写基类方法时，保持签名一致。
+
+## 安全边界
+- **不要修改** `bin/`、`obj/`、`.vs/` 目录下的任何文件。
+- **不要修改** `Old/` 目录下的文件。
+- **不要执行** `dotnet publish` 或直接部署 Mod。
+
+## 沟通风格
+- 用中文回复。
+- 解释代码时，指出具体的 tModLoader API 和 Hook 名称。
+- 如果不确定某个 API 的用法，明确说明，不要猜测。

@@ -1,0 +1,45 @@
+# This file will automatically update with entries for new content after a build and reload.
+# Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
+
+Configs: {
+	QuickBarConfig: {
+		DisplayName: Extra Quick Bars
+		Headers.General: General
+
+		FollowLoadoutSwitch: {
+			Label: Follow Equipment Loadout
+			Tooltip: When enabled, switching an equipment loadout (vanilla F1/F2/F3) also switches the matching quick bar. When disabled, only your equipment is switched; use the on-screen buttons or your own bound hotkeys to change quick bars.
+		}
+
+		ButtonSwitchesLoadout: {
+			Label: Buttons Also Switch Equipment Loadout
+			Tooltip: When enabled, clicking the on-screen buttons also switches your equipment loadout to the matching index. When disabled, the buttons only switch the quick bar.
+		}
+
+		KeybindSwitchesLoadout: {
+			Label: Hotkeys Also Switch Equipment Loadout
+			Tooltip: When enabled, using this mod's hotkeys also switches your equipment loadout to the matching index. When disabled, the hotkeys only switch the quick bar.
+		}
+
+		DropOnDeath: {
+			Label: Drop Active Bar On Death
+			Tooltip:
+				'''
+				When enabled, only the items of the currently active quick bar are dropped on death.
+				The other two bars are always kept, and nothing is ever dropped twice.
+				When disabled, all three bars are kept.
+				'''
+		}
+	}
+}
+
+Keybinds: {
+	SwitchToBar1.DisplayName: Switch to Quick Bar 1
+	SwitchToBar2.DisplayName: Switch to Quick Bar 2
+	SwitchToBar3.DisplayName: Switch to Quick Bar 3
+}
+
+UI: {
+	LeftArrow: <
+	RightArrow: >
+}

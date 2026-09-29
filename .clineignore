@@ -1,0 +1,86 @@
+# ============================================
+# .clineignore - tModLoader Mod 项目
+# Cline 自动加载时忽略以下文件/目录
+# 语法与 .gitignore 一致
+# ============================================
+
+# ---- 编译输出 ----
+# tModLoader 构建时生成的 DLL、PDB、中间文件
+bin/
+**/bin/
+obj/
+**/obj/
+
+# ---- Visual Studio / IDE ----
+.vs/
+**/.vs/
+*.user
+*.suo
+*.userprefs
+
+# ---- tModLoader 构建产物 ----
+# 编译完成的 .tmod 文件
+*.tmod
+# 调试符号
+*.pdb
+
+# ---- 依赖与包管理 ----
+# NuGet 包缓存
+packages/
+**/packages/
+# 如果项目使用了本地库引用
+Libraries/
+
+# ---- 日志与缓存 ----
+*.log
+logs/
+**/logs/
+*.cache
+
+# ---- 自动生成代码 ----
+# Designer 生成的文件通常无需 AI 阅读
+*.Designer.cs
+*.g.cs
+*.g.i.cs
+
+# ---- 大体积资源文件 ----
+# 纹理、音效、字体等二进制资源，AI 不需要读取原始数据
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.wav
+*.mp3
+*.ogg
+*.xnb
+*.fnt
+*.ttf
+
+# ---- 数据文件 ----
+*.csv
+*.xlsx
+*.sqlite
+*.db
+
+# ---- 版本控制与配置 ----
+.git/
+.gitignore
+.gitattributes
+.clineignore
+.clinerules/
+
+# ---- 旧代码目录 ----
+# tModLoader 示例项目中常见的 Old/ 目录，存放不参与编译的旧代码
+Old/
+**/Old/
+
+# ---- 本地环境配置 ----
+.env
+.env.*
+*.local
+
+# ---- 操作系统文件 ----
+.DS_Store
+Thumbs.db
+desktop.ini
